@@ -24,5 +24,11 @@ module.exports = {
   BOARD_SELECT_FAIL: "조회 실패",
   BOARD_INSERT_SUCCESS: " 삽입 성공",
   BOARD_INSERT_FAIL: "삽입 실패",
+  
+  NOT_FOUND_BOARDID: "ID와 일치 없습니다.",
+  APPLY_SELECT_SUCCESS: "조회 성공",
+  APPLY_SELECT_FAIL: "조회 실패",
+  APPLY_INSERT_SUCCESS: " 삽입 성공",
+  APPLY_INSERT_FAIL: "삽입 실패",
 
 };
