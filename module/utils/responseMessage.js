@@ -2,6 +2,7 @@ module.exports = {
   NULL_VALUE: "필요한 값이 없습니다",
   OUT_OF_VALUE: "파라미터 값이 잘못되었습니다",
   DB_ERROR:"디비 오류",
+ 
 
   MEMBERSHIP_SELECT_SUCCESS: "멤버십 조회 성공",
   MEMBERSHIP_SELECT_FAIL: "멤버십 조회 실패",
@@ -31,5 +32,7 @@ module.exports = {
   APPLY_SELECT_FAIL: "조회 실패",
   APPLY_INSERT_SUCCESS: " 삽입 성공",
   APPLY_INSERT_FAIL: "삽입 실패",
-
+  
+   MATCHING_SUCCESS: " 매칭 성공",
+  MATCHING_FAIL: "매칭 실패",
 };
