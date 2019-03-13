@@ -8,7 +8,8 @@ module.exports = {
   MEMBERSHIP_INSERT_FAIL: "멤버십 삽입 실패",
   MEMBERSHIP_UPDATE_SUCCESS: "멤버십 수정 성공",
   MEMBERSHIP_UPDATE_FAIL: "멤버십 수정 실패",
- 
+  MEMBERSHIP_TRANSAC_SUCCESS: "멤버십 트렌젝션 성공",
+  MEMBERSHIP_TRANSAC_FAIL: "멤버십 트렌젝션 실패",
 
   SIGNIN_SUCCESS:"로그인 성공",
   SIGNIN_FAIL:"로그인 실패",
