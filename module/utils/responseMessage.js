@@ -19,5 +19,10 @@ module.exports = {
   DUPLICATED_ID_FAIL:"중복된 ID가 있습니다.",
   NOT_CORRECT_USERINFO:"ID가 존재하지 않거나 비밀번호가 일치하지 않습니다.",
 
+  NOT_FOUND_BOARDID: "ID와 일치 없습니다.",
+  BOARD_SELECT_SUCCESS: "조회 성공",
+  BOARD_SELECT_FAIL: "조회 실패",
+  BOARD_INSERT_SUCCESS: " 삽입 성공",
+  BOARD_INSERT_FAIL: "삽입 실패",
 
 };
