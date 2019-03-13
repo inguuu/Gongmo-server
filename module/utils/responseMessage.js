@@ -1,6 +1,7 @@
 module.exports = {
   NULL_VALUE: "필요한 값이 없습니다",
   OUT_OF_VALUE: "파라미터 값이 잘못되었습니다",
+  DB_ERROR:"디비 오류",
 
   MEMBERSHIP_SELECT_SUCCESS: "멤버십 조회 성공",
   MEMBERSHIP_SELECT_FAIL: "멤버십 조회 실패",
