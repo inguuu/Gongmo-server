@@ -27,20 +27,7 @@ router.post('/', async (req, res) => {
         if (selectResult[0] == null) {
             res.status(200).send(defaultRes.successFalse(statusCode.OK, "매칭실패"));
         } else {
-            let resData = []
-            let first = [];
-            let second = [];
-            let third = [];
-
-            for (let i = 0; i < selectResult.length; i++) {
-                if (selectResult[i].category == req.body.category1) {
-                    first.push(selectResult[i]);
-                } else if (selectResult[i].category == req.body.category2) {
-                    second.push(selectResult[i]);
-                } else if (selectResult[i].category == req.body.category3) {
-                    third.push(selectResult[i]);
-                }
-            }
+       
             resData = first.concat(second, third);
             console.log(resData);
             res.status(200).send(defaultRes.successTrue(statusCode.OK, "매칭성공", resData));
